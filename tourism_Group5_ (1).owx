@@ -1,0 +1,2089 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2024/11/untitled-ontology-7/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Accommodation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adventure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AirTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annually"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aparthotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Beach"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bed_and_breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cave"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Daily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination_Management_Organizations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destination_and_Attraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diving"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecotourism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Goals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Healthcare_service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hiking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Historical_Cultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homestays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Islands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileApps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monthly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PlaceOfWorship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Railways"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Roads"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service_Providers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shopping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Theatre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TourismWebsites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tourism_Regulatory_Bodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trains"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transportation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WaterTransport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weekly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#buildings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cafes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#castle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#church"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#city"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#education"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#events_festival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#food_and_beverage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#malls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mosque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#products"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#restaurants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ship"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shrine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tourist_guide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#university"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wildlife_safari"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AccessibleBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Arecommends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#AttractTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#IsServedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#availabeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#books"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#guides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccommodation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttraction"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#located"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offersActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#place"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preferredActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provided_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommend"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommended_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recommendsAccommodation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#support"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#visitFor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Capacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cost"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DifficultyLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Length"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rating"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weigth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDesciption"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasWifiAvailable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abdul_Hameed_Shoman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Abu_Dhabi_Malls"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#American_Airlines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#American_Eagle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Booking_.com_Travel_Deals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catholic_Church"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Danum_Valley_Conservation_Area"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dubai_museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eiffel_Tower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Electronic_Cafe_International"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emirates_palace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Florida"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Galata_Tower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Google_Maps"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hesburger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jamaica_island"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Johor_Public_Library"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jordan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#King_Faisal_Mosque"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malaysia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#National_Library_of_Finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#National_diet_library"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Roman_theatre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosewood_london"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Royal_jordanian_Airlines"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sapporo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Skyscanner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taj_Mahal_Tower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Taj__ul__Masajid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Target_corporation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tokyo_skytree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#finland"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jamaica_pegasus_hotel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#karak_castle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#university_of_Jordan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Holborn_Dining_Room:"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rotolo’s_Pizzeria"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adventure"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AirTransport"/>
+        <Class IRI="#Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annually"/>
+        <Class IRI="#events_festival"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aparthotel"/>
+        <Class IRI="#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aparthotel"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#restaurants"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Beach"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bed_and_breakfast"/>
+        <Class IRI="#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Roads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <Class IRI="#Roads"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cave"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Daily"/>
+        <Class IRI="#events_festival"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destination_Management_Organizations"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diving"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecotourism"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Healthcare_service"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hiking"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Historical_Cultural"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homestays"/>
+        <Class IRI="#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#restaurants"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Islands"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandTransport"/>
+        <Class IRI="#Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileApps"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monthly"/>
+        <Class IRI="#events_festival"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motel"/>
+        <Class IRI="#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PlaceOfWorship"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Railways"/>
+        <Class IRI="#LandTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resort"/>
+        <Class IRI="#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resort"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#restaurants"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Roads"/>
+        <Class IRI="#LandTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Service_Providers"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shopping"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Theatre"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TourismWebsites"/>
+        <Class IRI="#Technology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tourism_Regulatory_Bodies"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tower"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trains"/>
+        <Class IRI="#Railways"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WaterTransport"/>
+        <Class IRI="#Transportation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weekly"/>
+        <Class IRI="#events_festival"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boat"/>
+        <Class IRI="#WaterTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#buildings"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cafes"/>
+        <Class IRI="#food_and_beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#castle"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#church"/>
+        <Class IRI="#PlaceOfWorship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#city"/>
+        <Class IRI="#region"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#country"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#education"/>
+        <Class IRI="#Goals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#events_festival"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#malls"/>
+        <Class IRI="#food_and_beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mosque"/>
+        <Class IRI="#PlaceOfWorship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#museum"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nature"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plane"/>
+        <Class IRI="#AirTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#products"/>
+        <Class IRI="#Shopping"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#region"/>
+        <Class IRI="#country"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#restaurants"/>
+        <Class IRI="#food_and_beverage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ship"/>
+        <Class IRI="#WaterTransport"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shrine"/>
+        <Class IRI="#PlaceOfWorship"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourist"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourist"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#visitFor"/>
+            <Class IRI="#Goals"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourist"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#locatedIn"/>
+            <Class IRI="#Accommodation"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourist_guide"/>
+        <Class IRI="#Stakeholders"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tourist_guide"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#guides"/>
+            <Class IRI="#tourist"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#university"/>
+        <Class IRI="#buildings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wildlife_safari"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AirTransport"/>
+        <Class IRI="#LandTransport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AirTransport"/>
+        <Class IRI="#WaterTransport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Annually"/>
+        <Class IRI="#Daily"/>
+        <Class IRI="#Monthly"/>
+        <Class IRI="#Weekly"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Aparthotel"/>
+        <Class IRI="#Bed_and_breakfast"/>
+        <Class IRI="#Homestays"/>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Motel"/>
+        <Class IRI="#Resort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beach"/>
+        <Class IRI="#buildings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Beach"/>
+        <Class IRI="#events_festival"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Bus"/>
+        <Class IRI="#Car"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cave"/>
+        <Class IRI="#Library"/>
+        <Class IRI="#PlaceOfWorship"/>
+        <Class IRI="#Theatre"/>
+        <Class IRI="#Tower"/>
+        <Class IRI="#castle"/>
+        <Class IRI="#museum"/>
+        <Class IRI="#university"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Destination_Management_Organizations"/>
+        <Class IRI="#Service_Providers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Destination_Management_Organizations"/>
+        <Class IRI="#tourist"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Destination_Management_Organizations"/>
+        <Class IRI="#tourist_guide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Diving"/>
+        <Class IRI="#Healthcare_service"/>
+        <Class IRI="#Hiking"/>
+        <Class IRI="#Shopping"/>
+        <Class IRI="#wildlife_safari"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LandTransport"/>
+        <Class IRI="#WaterTransport"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Service_Providers"/>
+        <Class IRI="#tourist"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Tourism_Regulatory_Bodies"/>
+        <Class IRI="#tourist"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Tourism_Regulatory_Bodies"/>
+        <Class IRI="#tourist_guide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#boat"/>
+        <Class IRI="#ship"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cafes"/>
+        <Class IRI="#malls"/>
+        <Class IRI="#restaurants"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#church"/>
+        <Class IRI="#mosque"/>
+        <Class IRI="#shrine"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#tourist"/>
+        <Class IRI="#tourist_guide"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#malls"/>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#Abdul_Hameed_Shoman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#malls"/>
+        <NamedIndividual IRI="#Abu_Dhabi_Malls"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#plane"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service_Providers"/>
+        <NamedIndividual IRI="#American_Eagle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#city"/>
+        <NamedIndividual IRI="#Amman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileApps"/>
+        <NamedIndividual IRI="#Booking_.com_Travel_Deals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#church"/>
+        <NamedIndividual IRI="#Catholic_Church"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#wildlife_safari"/>
+        <NamedIndividual IRI="#Danum_Valley_Conservation_Area"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#museum"/>
+        <NamedIndividual IRI="#Dubai_museum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tower"/>
+        <NamedIndividual IRI="#Eiffel_Tower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#cafes"/>
+        <NamedIndividual IRI="#Electronic_Cafe_International"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#plane"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Emirates_palace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#Florida"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tower"/>
+        <NamedIndividual IRI="#Galata_Tower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileApps"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#plane"/>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#restaurants"/>
+        <NamedIndividual IRI="#Hesburger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Islands"/>
+        <NamedIndividual IRI="#Jamaica_island"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#Johor_Public_Library"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mosque"/>
+        <NamedIndividual IRI="#King_Faisal_Mosque"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#National_Library_of_Finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#National_diet_library"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Theatre"/>
+        <NamedIndividual IRI="#Roman_theatre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#plane"/>
+        <NamedIndividual IRI="#Royal_jordanian_Airlines"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#malls"/>
+        <NamedIndividual IRI="#Sapporo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TourismWebsites"/>
+        <NamedIndividual IRI="#Skyscanner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tower"/>
+        <NamedIndividual IRI="#Taj_Mahal_Tower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#mosque"/>
+        <NamedIndividual IRI="#Taj__ul__Masajid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#malls"/>
+        <NamedIndividual IRI="#Target_corporation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tower"/>
+        <NamedIndividual IRI="#Tokyo_skytree"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service_Providers"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#country"/>
+        <NamedIndividual IRI="#finland"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hotel"/>
+        <NamedIndividual IRI="#jamaica_pegasus_hotel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#castle"/>
+        <NamedIndividual IRI="#karak_castle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#university"/>
+        <NamedIndividual IRI="#university_of_Jordan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#restaurants"/>
+        <NamedIndividual IRI="#Holborn_Dining_Room:"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#restaurants"/>
+        <NamedIndividual IRI="#Rotolo’s_Pizzeria"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+        <NamedIndividual IRI="#Amman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Abdul_Hameed_Shoman"/>
+        <NamedIndividual IRI="#Amman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Abu_Dhabi_Malls"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provided_by"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+        <NamedIndividual IRI="#American_Eagle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provides"/>
+        <NamedIndividual IRI="#American_Eagle"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Amman"/>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#books"/>
+        <NamedIndividual IRI="#Booking_.com_Travel_Deals"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#place"/>
+        <NamedIndividual IRI="#Catholic_Church"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availabeIn"/>
+        <NamedIndividual IRI="#Danum_Valley_Conservation_Area"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Dubai_museum"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommended_by"/>
+        <NamedIndividual IRI="#Eiffel_Tower"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommended_by"/>
+        <NamedIndividual IRI="#Electronic_Cafe_International"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provided_by"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Emirates_palace"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Florida"/>
+        <NamedIndividual IRI="#Rotolo’s_Pizzeria"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#recommended_by"/>
+        <NamedIndividual IRI="#Galata_Tower"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Arecommends"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+        <NamedIndividual IRI="#Hesburger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provided_by"/>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Hesburger"/>
+        <NamedIndividual IRI="#finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#India"/>
+        <NamedIndividual IRI="#Taj_Mahal_Tower"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasAccommodation"/>
+        <NamedIndividual IRI="#Jamaica_island"/>
+        <NamedIndividual IRI="#jamaica_pegasus_hotel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#Japan"/>
+        <NamedIndividual IRI="#Sapporo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Johor_Public_Library"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#contains"/>
+        <NamedIndividual IRI="#Jordan"/>
+        <NamedIndividual IRI="#Amman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#King_Faisal_Mosque"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#offer"/>
+        <NamedIndividual IRI="#Malaysia"/>
+        <NamedIndividual IRI="#Danum_Valley_Conservation_Area"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#National_Library_of_Finland"/>
+        <NamedIndividual IRI="#finland"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#National_diet_library"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Roman_theatre"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+        <NamedIndividual IRI="#Holborn_Dining_Room:"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Royal_jordanian_Airlines"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Sapporo"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#books"/>
+        <NamedIndividual IRI="#Skyscanner"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Taj_Mahal_Tower"/>
+        <NamedIndividual IRI="#India"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#place"/>
+        <NamedIndividual IRI="#Taj__ul__Masajid"/>
+        <NamedIndividual IRI="#India"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Target_corporation"/>
+        <NamedIndividual IRI="#Florida"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Tokyo_skytree"/>
+        <NamedIndividual IRI="#Japan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#provides"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasFood"/>
+        <NamedIndividual IRI="#finland"/>
+        <NamedIndividual IRI="#Hesburger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#jamaica_pegasus_hotel"/>
+        <NamedIndividual IRI="#Jamaica_island"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#karak_castle"/>
+        <NamedIndividual IRI="#Jordan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#university_of_Jordan"/>
+        <NamedIndividual IRI="#Amman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#IsServedBy"/>
+        <NamedIndividual IRI="#Holborn_Dining_Room:"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#located"/>
+        <NamedIndividual IRI="#Rotolo’s_Pizzeria"/>
+        <NamedIndividual IRI="#Florida"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+        <Literal>Abdali Mall</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+        <Literal>4.0 f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Abdali_Mall"/>
+        <Literal>Abdali Mall (Arabic: العبدلي مول) is a $300 million shopping mall located in Amman, Jordan. Developed and owned by the Abdali Mall Company, the mall opened in May 2016 and is part of the Abdali Project.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Abdul_Hameed_Shoman"/>
+        <Literal>Abdul Hameed Shoman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Abdul_Hameed_Shoman"/>
+        <Literal>Public Library was established in 1986 as Jordan&apos;s first advanced public library, Its mission is to promote literature, arts, and knowledge by offering diverse resources to students, researchers, and the community.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Abu_Dhabi_Malls"/>
+        <Literal>Abu Dhabi Mall</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Abu_Dhabi_Malls"/>
+        <Literal>4.0 f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Abu_Dhabi_Malls"/>
+        <Literal>Abu Dhabi Mall is a shopping mall in central Abu Dhabi, United Arab Emirates. It opened on 15 May 2001 and has over 200+ shops, food Court and cinema. The Mall is located next to the Beach Rotana hotel, with a direct internal entrance from the hotel.In January 2017, Forbes recognized Abu Dhabi Mall as one of the top shopping malls in Abu Dhabi.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">970</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+        <Literal>105$</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#American_Airlines"/>
+        <Literal>American Airlines</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#American_Eagle"/>
+        <Literal>American Eagle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#American_Eagle"/>
+        <Literal>American Eagle is a US brand name for the regional branch of American Airlines, under which six individual regional airlines operate short- and medium-haul feeder flights. Three of these airlines, Envoy Air (formerly American Eagle Airlines), Piedmont Airlines, and PSA Airlines, are wholly owned subsidiaries of the American Airlines Group. American Eagle&apos;s largest hub is Charlotte Douglas International&apos;s Concourse E, which operates over 340 flights per day, making it the largest express flight operation in the world.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Amman"/>
+        <Literal>Amman  is the capital and largest city of Jordan, and the country&apos;s economic, political, and cultural center. With a population of 4,061,150 as of 2021, Amman is Jordan&apos;s primate city and is the largest city in the Levant region, the fifth-largest city in the Arab world, and the ninth largest metropolitan area in the Middle East.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Booking_.com_Travel_Deals"/>
+        <Literal>4.5f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Booking_.com_Travel_Deals"/>
+        <Literal>Booking.com is one of the largest online travel agencies.[1][2] It is headquartered in Amsterdam, and is a subsidiary of Booking Holdings. Booking.com provides lodging reservation services for approximately 3.4 million properties, including 475,000 hotels, motels, and resorts and 2.9 million homes, apartments in over 220 countries and territories and in over 40 languages. It also sells flights in 55 markets and tours and activities in more than 1,300 cities.[1] Hotel partners have reported not being paid for months at a time, leaving small hoteliers out of pocket</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Catholic_Church"/>
+        <Literal>The Catholic Church, also known as the Roman Catholic Church, is the largest Christian church, with 1.3 billion baptized Catholics worldwide as of 2019. As the world&apos;s oldest and largest continuously functioning international institution, it has played a prominent role in the history and development of Western civilization</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Danum_Valley_Conservation_Area"/>
+        <Literal>Danum Valley Conservation Area is a 438 square kilometres tract of relatively undisturbed lowland dipterocarp forest in Sabah, Malaysia. It has an extensive diversity of tropical flora and fauna, including such species as the rare Bornean orangutans, gibbons, mousedeer, clouded leopards and over 270 bird species. Activities offered are jungle treks, river swimming, bird watching, night jungle tours and excursions to nearby logging sites and timber mills</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Dubai_museum"/>
+        <Literal>Dubai Museum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Dubai_museum"/>
+        <Literal>Dubai_museum is the main museum in Dubai,United Arab Emirates .it is located in the Al Fahidi Fort ,bilt in 1787 and is the oldest existing building in Dubai</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Eiffel_Tower"/>
+        <Literal>Eiffel Tower</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Eiffel_Tower"/>
+        <Literal>The Eiffel Tower , is a wrought -iron lattice tower on the Champ de Mars in Paris , France .It is named after the engineer Gustave Eiffel ,WHose company designed and built the tower from 1887 to 1889</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Electronic_Cafe_International"/>
+        <Literal>Electronic Café International (ECI), established in 1988 by Kit Galloway and Sherrie Rabinowitz, is a performance space and real café housed in the 18th Street Arts Center in Santa Monica, California</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">249</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">209</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Emirates_Airlines"/>
+        <Literal>Emirates_Airlines</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Emirates_palace"/>
+        <Literal>the Emirates Palace , is a luxury five star hotel in Abu Dhabi, United Arab Emirates. It has been operated by Mandarin Oriental as of 1 January 2020. The hotel project was launched in December 2001 and was initially operated by Kempinski from its opening in November 2005 until 1 January 2020. Due to the change in management, the Palace will be renovated over the course of two years, after which it will be fully rebranded as a Mandarin Oriental property.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Florida"/>
+        <Literal>Florida is a state located in the Southeastern region of the United States. Florida is bordered to the west by the Gulf of Mexico, to the northwest by Alabama, to the north by Georgia, to the east by the Bahamas and Atlantic Ocean, and to the south by the Straits of Florida and Cuba; it is the only state that borders both the Gulf of Mexico and the Atlantic Ocean. Spanning 65,758 square miles (170,310 km2), Florida ranks 22nd in area among the 50 states, and with a population of over 21 million, is the third-most populous</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">150</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+        <Literal>four points by sheraton</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWifiAvailable"/>
+        <NamedIndividual IRI="#Four_points_by_sheraton"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Galata_Tower"/>
+        <Literal>Galata Tower</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Galata_Tower"/>
+        <Literal>The Galata Tower ,is medieval Grnoese tower in the Galata part of the Beyoglu district of istanbul ,Turkey .Built as a watchtower at the highest point of the mostly demolished Walls of Galata</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+        <Literal>4.2f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Google_Maps"/>
+        <Literal>Google Maps is a web mapping platform and consumer application offered by Google. It offers satellite imagery, aerial photography, street maps, 360° interactive panoramic views of streets (Street View), real-time traffic conditions, and route planning for traveling by foot, car, bike, air (in beta) and public transportation. As of 2020, Google Maps was being used by over one billion people every month around the world</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">278</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">144</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Hawaiian_Airlines"/>
+        <Literal>Hawaiian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Hesburger"/>
+        <Literal>3.3 f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Hesburger"/>
+        <Literal>Hesburger (colloquially known in Finland as Hese and in Estonia as Hess) is a fast food chain based in Turku, Finland. In 2008 it was the largest hamburger restaurant chain in Finland, Estonia, Latvia and Lithuania, with a market share larger than that of U.S.-based rival McDonald&apos;s. It further operates in Bulgaria, Germany, Poland, Romania, and Ukraine. Hesburger primarily purveys fast foods such as hamburgers, fried potatoes, salads and desserts. The company name is derived from the nickname of the founder, Heikki &quot;Hese&quot; Salmela. The company also operates Hesecafes, which sell pastries and specialty coffees, and hot dog outlets. Some restaurants provide car wash services</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#India"/>
+        <Literal>India, officially the Republic of India (Hindi: Bhārat Gaṇarājya), is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Jamaica_island"/>
+        <Literal>Jamaica island</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Jamaica_island"/>
+        <Literal>Jamaica[a] is an island country in the Caribbean Sea and the West Indies. At 10,990 square kilometres (4,240 sq mi), it is the third-largest island—after Cuba and Hispaniola—of the Greater Antilles and the Caribbean.[9] Jamaica lies about 145 km (78 nmi) south of Cuba, 191 km (103 nmi) west of Hispaniola (the island containing Haiti and the Dominican Republic), and 215 km (116 nmi) southeast of the Cayman Islands (a British Overseas Territory).</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Japan"/>
+        <Literal>Japan  is an island country in East Asia. It is situated in the northwest Pacific Ocean, and is bordered on the west by the Sea of Japan, while extending from the Sea of Okhotsk in the north toward the East China Sea, Philippine Sea, and Taiwan in the south. Japan is a part of the Ring of Fire, and spans an archipelago of 6852 islands covering 377,975 square kilometers (145,937 sq mi); the five main islands are Hokkaido, Honshu (the &quot;mainland&quot;), Shikoku, Kyushu, and Okinawa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Johor_Public_Library"/>
+        <Literal>The history of the modern state of Singapore dates back to its founding in the early nineteenth century; however, evidence suggests that a significant trading settlement existed on the Island of Singapore in the 14th century. The last ruler of the Kingdom of Singapura, Parameswara, was expelled by the Majapahit or the Siamese and he then founded Malacca. Singapore then came under the Malacca Sultanate and then the Johor Sultanate. In 1819, British statesman Stamford Raffles negotiated a treaty whereby Johor allowed the British to locate a trading port on the island, ultimately leading to the establishment of the crown colony of Singapore in 1867</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Jordan"/>
+        <Literal>Jordan , officially the Hashemite Kingdom of Jordan, is a country in Western Asia. It is situated at the crossroads of Asia, Africa, and Europe, within the Levant region, on the East Bank of the Jordan River. Jordan is bordered by Saudi Arabia to the south and east, Iraq to the northeast, Syria to the north, and the Palestinian West Bank, Israel, and the Dead Sea to the west. It has a 26 km (16 mi) coastline on the Gulf of Aqaba in the Red Sea to the southwest. The Gulf of Aqaba separates Jordan from Egypt.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">400</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+        <Literal>jumeirah beach</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">3.4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWifiAvailable"/>
+        <NamedIndividual IRI="#Jumeirah_beach_hotel"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#King_Faisal_Mosque"/>
+        <Literal>The Faisal Mosque  is the national mosque of Pakistan, located in capital Islamabad. It is the sixth-largest mosque in the world and the largest within South Asia, located on the foothills of Margalla Hills in Pakistan&apos;s capital city of Islamabad. It is named after the late King Faisal I of Saudi Arabia. The mosque features a contemporary design consisting of eight sides of concrete shell and is inspired by the design of a typical Bedouin tent.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Malaysia"/>
+        <Literal>Malaysia  is a country in Southeast Asia. The federal constitutional monarchy consists of thirteen states and three federal territories, separated by the South China Sea into two regions, Peninsular Malaysia and Borneo&apos;s East Malaysia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#National_Library_of_Finland"/>
+        <Literal>The National Library of  is the foremost research library in Finland. Administratively the library is part of the University of Helsinki. From 1919 to 1 August 2006, it was known as the Helsinki University Library (Finnish: Helsingin yliopiston kirjasto). * C.L. Engel and Gustaf Nyström, University Architects * Rotunda by Gustaf Nyström * .</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#National_diet_library"/>
+        <Literal>National Diet</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#National_diet_library"/>
+        <Literal>is the national library of Japan and among the largest libraries in the world. It was established in 1948 for the purpose of assisting members of the National Diet of Japan in researching matters of public policy.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Roman_theatre"/>
+        <Literal>Theatre of ancient rome</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Roman_theatre"/>
+        <Literal>The theatre of ancient Rome referred to a period of time in which theatrical practice and performance took place in Rome. The tradition has been linked back even further to the 4th century BC, following the state’s transition from monarchy to republic.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">250</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+        <Literal>Rosewood london</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">4.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasWifiAvailable"/>
+        <NamedIndividual IRI="#Rosewood_london"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#Royal_jordanian_Airlines"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">31</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Royal_jordanian_Airlines"/>
+        <Literal>$ 608</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Royal_jordanian_Airlines"/>
+        <Literal>Royal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Sapporo"/>
+        <Literal>Sapporo , is a city in Japan. It is the largest city north of Tokyo and the largest city on Hokkaido, the northernmost main island of the country. It ranks as the fifth most populous city in Japan. It is the capital city of Hokkaido Prefecture and Ishikari Subprefecture. Sapporo lies in the southwest of Hokkaido, within the alluvial fan of the Toyohira River, which is a tributary stream of the Ishikari. It is considered the cultural, economic, and political center of Hokkaido</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Skyscanner"/>
+        <Literal>4.4f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Skyscanner"/>
+        <Literal>Skyscanner Ltd. is a search aggregator and travel agency based in Edinburgh, Scotland and operating since 2003</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Taj_Mahal_Tower"/>
+        <Literal>The Taj Mahal  is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Cost"/>
+        <NamedIndividual IRI="#Taj__ul__Masajid"/>
+        <Literal>20 million</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Taj__ul__Masajid"/>
+        <Literal>Taj Ul Masajid</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rating"/>
+        <NamedIndividual IRI="#Target_corporation"/>
+        <Literal>5.0f</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Target_corporation"/>
+        <Literal>Target</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Target_corporation"/>
+        <Literal>Target Corporation is an American retail corporation that operates a chain of discount department stores and hypermarkets, headquartered in Minneapolis, Minnesota. It is the seventh-largest retailer in the United States, and a component of the S&amp;P 500 Index. The company is one of the largest American-owned private employers in the United States.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Tokyo_skytree"/>
+        <Literal>Tokyo Skytree</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Tokyo_skytree"/>
+        <Literal>Tokyo Skytree , also written as Tokyo Sky Tree , is a broadcasting and observation tower , located in Sumida ,Tokyo, Japan . it is the tallest tower in japan since opening in 2012 , and reached its full height of 634 meters (2,080 ft) in early 2011 , making it the tallest tower in the world .</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+        <Literal>Emirates</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#United_Arab_Emirates"/>
+        <Literal>he United Arab Emirates , or simply the Emirates, is a country in Western Asia (The Middle East). It is located at the eastern end of the Arabian Peninsula and shares borders with Oman and Saudi Arabia, while having maritime borders in the Persian Gulf with Qatar and Iran. Abu Dhabi is the nation&apos;s capital, while Dubai, the most populous city, is an international hub.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#finland"/>
+        <Literal>Finland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#finland"/>
+        <Literal>Finland , officially the Republic of Finland , is a Nordic country in Northern Europe. It shares land borders with Sweden to the northwest, Norway to the north, and Russia to the east, with the Gulf of Bothnia to the west and the Gulf of Finland across Estonia to the south. Finland covers an area of 338,455 square kilometres (130,678 sq mi) with a population of 5.6 million. Helsinki is the capital and largest city, forming a larger metropolitan area with the neighbouring cities of Espoo, Kauniainen, and Vantaa. The vast majority of the population are ethnic Finns. Finnish, alongside Swedish, are the official languages. Swedish is the native language of 5.2% of the popula</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#jamaica_pegasus_hotel"/>
+        <Literal>300+</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#jamaica_pegasus_hotel"/>
+        <Literal>The Jamaica Pegasus Hotel is a hotel in Kingston, Jamaica, located at 81 Knutsford Boulevard in the financial and business district of the city. A noted landmark, the hotel is 17 stories high</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#karak_castle"/>
+        <Literal>Al-Karak , is a city in Jordan known for its medieval castle, the Kerak Castle. The castle is one of the three largest castles in the region, the other two being in Syria. Al-Karak is the capital city of the Karak Governorate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#university_of_Jordan"/>
+        <Literal>The University Of Jordan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#university_of_Jordan"/>
+        <Literal>The University of Jordan (Arabic: الجامعة الأردنية), often abbreviated UJ or JU, is a public university located in Amman, Jordan. Founded in 1962,[10] and it is the largest and oldest institution of higher education in Jordan. It is located in the capital Amman in the Jubaiha District of Amman. It is composed of 25 faculties,[11] and offers 91 bachelor programs and 161 postgraduate programs.[12] The university&apos;s stated main strategy and rule is to be global and productive in all its educational fields</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Holborn_Dining_Room:"/>
+        <Literal>Holborn Dining Room</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Holborn_Dining_Room:"/>
+        <Literal>A grand brasserie set in the heart of London, Holborn Dining Room serves up Seasonal British cuisine with a twist in a vibrantly bustling dining salon. Combining reclaimed oak with antique mirrors, red leather banquettes with tweed detailing, and two antique patina copper-topped bars, it&apos;s a place for enjoying a convivial meal with friends, from beautifully hand crafted pies to fish and chips - all served by our friendly team who are always happy to help.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Rotolo’s_Pizzeria"/>
+        <Literal>Rotolo’s Pizzeria</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasDesciption"/>
+        <NamedIndividual IRI="#Rotolo’s_Pizzeria"/>
+        <Literal>Rotolo’s Pizzeria is an American pizza restaurant chain that was established in 1996 in Baton Rouge, Louisiana as a single pizzeria. It operates as both company-owned stores and franchises under the banner of Rotolo&apos;s Pizzeria and Rotolo&apos;s Craft and Crust, with 32 locations in 6 states. Its headquarters are in Baton Rouge, Louisiana</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#AttractTo"/>
+        <ObjectProperty IRI="#hasAttraction"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#provided_by"/>
+        <ObjectProperty IRI="#provides"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#provides"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#recommend"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#guides"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#offers"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AccessibleBy"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Arecommends"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#AttractTo"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#IsServedBy"/>
+        <Class IRI="#food_and_beverage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#availabeIn"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#books"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#guides"/>
+        <Class IRI="#tourist_guide"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#Accommodation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccommodation"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAttraction"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFood"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located"/>
+        <Class IRI="#Accommodation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located"/>
+        <Class IRI="#buildings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#located"/>
+        <Class IRI="#food_and_beverage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offer"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#Service_Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offersActivity"/>
+        <Class IRI="#Service_Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#place"/>
+        <Class IRI="#PlaceOfWorship"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preferredActivity"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provided_by"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Service_Providers"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recommend"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recommended_by"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recommended_by"/>
+        <Class IRI="#food_and_beverage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recommendsAccommodation"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#support"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#support"/>
+        <Class IRI="#university"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#visitFor"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AccessibleBy"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Arecommends"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Arecommends"/>
+        <Class IRI="#food_and_beverage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#AttractTo"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#IsServedBy"/>
+        <Class IRI="#Accommodation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#availabeIn"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#books"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#buildings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#city"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#contains"/>
+        <Class IRI="#region"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#guides"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has"/>
+        <Class IRI="#food_and_beverage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccommodation"/>
+        <Class IRI="#Accommodation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAttraction"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFood"/>
+        <Class IRI="#food_and_beverage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#located"/>
+        <Class IRI="#Islands"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#located"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Accommodation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedIn"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offer"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offersActivity"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#place"/>
+        <Class IRI="#country"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preferredActivity"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provided_by"/>
+        <Class IRI="#Service_Providers"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides"/>
+        <Class IRI="#Transportation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recommend"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recommended_by"/>
+        <Class IRI="#Technology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recommendsAccommodation"/>
+        <Class IRI="#tourist"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#support"/>
+        <Class IRI="#education"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#visitFor"/>
+        <Class IRI="#Goals"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age"/>
+        <Class IRI="#tourist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Capacity"/>
+        <Class IRI="#Transportation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost"/>
+        <Class IRI="#Accommodation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cost"/>
+        <Class IRI="#Transportation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DifficultyLevel"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Duration"/>
+        <Class IRI="#Activity"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Length"/>
+        <Class IRI="#tourist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#buildings"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rating"/>
+        <Class IRI="#Accommodation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weigth"/>
+        <Class IRI="#tourist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDesciption"/>
+        <Class IRI="#Destination_and_Attraction"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasWifiAvailable"/>
+        <Class IRI="#Accommodation"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Capacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cost"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:int"/>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#DifficultyLevel"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Duration"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Length"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="rdf:XMLLiteral"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rating"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weigth"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDesciption"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasWifiAvailable"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
