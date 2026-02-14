@@ -1,64 +1,75 @@
-# Tourism Ontology Project
+🌍 Tourism Ontology Project
 
-This project presents an ontology for the **tourism domain**, developed as part of the *Semantic Web* course at the **University of Jordan**.
+This project presents a semantic ontology for the tourism domain, developed as part of the Semantic Web course at the University of Jordan.
 
-## Objective
-To create a semantic representation of key components in the tourism industry using **OWL**, enabling intelligent knowledge management and reasoning over tourism-related data.
+🎯 Objective
 
+To design a structured knowledge model of the tourism ecosystem using OWL, enabling semantic reasoning, intelligent querying, and integration with external knowledge bases.
 
-## Ontology Structure
+🏗 Ontology Structure
 
-The ontology includes the following major **concepts**:
+The ontology models key tourism concepts including:
 
-### Accommodation:
-- Hotel
-- Motel
-- Homestays
-- Aparthotel
-- Resort
-- Bed and Breakfast
+🏨 Accommodation
 
-### Tourist Activities:
-- Hiking, Diving, Ecotourism
-- Shopping, Historical Visits, Safari
+Hotel, Motel, Homestay, Aparthotel, Resort, Bed & Breakfast
 
-### Attractions & Destinations:
-- Buildings (Museums, Castles, Mosques)
-- Nature, Beaches, Cities, Islands
+🎯 Tourist Activities
 
-### Transportation:
-- AirTransport (Planes, Airlines)
-- LandTransport (Cars, Buses, Trains)
-- WaterTransport (Boats, Ships)
+Hiking, Diving, Ecotourism, Safari, Historical Visits, Shopping
 
-### Food & Beverage:
-- Restaurants, Cafés, Malls
+🏛 Attractions & Destinations
 
-### Stakeholders:
-- Tourists, Tourist Guides, Service Providers, Regulatory Bodies
+Museums, Castles, Mosques, Cities, Islands, Natural Sites
 
+🚗 Transportation
 
-## Relationships Modeled
+AirTransport (Planes, Airlines)
+LandTransport (Cars, Buses, Trains)
+WaterTransport (Boats, Ships)
 
-Examples of object properties used:
-- `locatedIn`: links a tourist to a specific accommodation.
-- `hasAttraction`, `visitFor`, `preferredActivity`: show motivations and destinations.
-- `provided_by`, `IsServedBy`: link services to providers.
-- `offersActivity`, `recommend`, `books`, `place`, etc.
+🍽 Food & Beverage
 
+Restaurants, Cafés, Malls
 
-## Tools Used
-- **Protégé** (ontology editor)
-- **XML format** for serialization
+👥 Stakeholders
 
+Tourists, Tourist Guides, Service Providers, Regulatory Bodies
 
-## File
-- tourism-ontology.owl: The complete ontology structure in OWL/XML syntax.
+🔗 Semantic Relationships
 
+Key object properties include:
 
-## Use Cases
-- Can be used in intelligent tourism platforms, recommendation systems, or semantic web agents.
-- Supports reasoning and querying via SPARQL over structured tourism data.
+locatedIn
 
+hasAttraction
 
+preferredActivity
 
+offersActivity
+
+providesTransportation
+
+recommendedBy
+
+The ontology also implements:
+
+Class hierarchies
+
+Object & data properties
+
+Disjoint classes
+
+Cardinality restrictions
+
+SPARQL querying
+
+🛠 Tools & Technologies
+
+Protégé
+
+OWL / OWL/XML
+
+SPARQL
+
+DBpedia Integration
